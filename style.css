@@ -7,3 +7,137 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 *, *:before, *:after {box-sizing: inherit}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+
+:root {
+    --primaryColor: #344e41;
+    --secondaryColor: #588157;
+    --tertiaryColor: #dad7cd;
+
+}
+
+
+/* GENERAL STYLES */
+* {
+    font-size: 125%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* .wrapper {
+    width: 80%;
+    padding: 0 10%;
+} */
+
+
+/* TYPOGRAPHY */
+header,
+footer {
+    color: var(--tertiaryColor);
+    background-color: var(--primaryColor);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+nav,
+p {
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* HEADER */
+
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.header-container {
+    display: inline-block;
+    flex-flow: row wrap;
+}
+
+.header-left-container {
+    display: inline-block;
+    height: auto;
+    width: 50vw;
+    padding-right: 50px;
+}
+
+.header-right-container {
+    display: inline;
+    height: auto;
+    width: 50vw;
+}
+
+.header-img {
+    width: 500px;
+    /* max-width: 800px; */
+    height: auto;
+}
+
+button {
+    font-size: 24px;
+    width: 150px;
+    background-color: var(--secondaryColor);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+/* GALLERY */
+
+.gallery-container {
+    display: flex;
+
+    /* height: 180px;
+    width: 120px; */
+}
+
+.gallery-container div {
+    flex: 1;
+}
+
+.gallery {
+    /* display: flex;
+    flex-flow: row nowrap; */
+    /* justify-items: center; */
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border: 3px solid var(--secondaryColor);
+    border-radius: 8px;
+}
+
+/* img {
+    border: 2px solid var(--secondaryColor);
+} */
+
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+}
