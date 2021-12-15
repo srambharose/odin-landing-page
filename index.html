@@ -16,17 +16,18 @@
 <!-- THE BODY -->
 <body>
     <div class="wrapper">
-        <header>
-            <!-- LOGO -->
-            <img src="./assets/potted-plant_1fab4.png" alt="" class="logo">
+        <header>           
             
             <!-- NAV BAR -->
                 <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-list-item"><a href="https://github.com/srambharose" class="nav-link"></a>About</li>
-                        <li class="nav-list-item"><a href="https://github.com/srambharose" class="nav-link"></a>Blog</li>
-                        <li class="nav-list-item"><a href="https://github.com/srambharose" class="nav-link"></a>Contact</li>
+                    <img src="./assets/potted-plant_1fab4.png" alt="" class="logo">
+                    
+                    <ul class="nav-links">
+                        <li class="nav-item"><a href="https://github.com/srambharose" class="nav-link"></a>About</li>
+                        <li class="nav-item"><a href="https://github.com/srambharose" class="nav-link"></a>Blog</li>
+                        <li class="nav-item"><a href="https://github.com/srambharose" class="nav-link"></a>Contact</li>
                     </ul>
+
                 </nav>
 
             <div class="header-container">
@@ -42,34 +43,64 @@
             </div>
         </header>
 
+        <!-- GALLERY -->
+        <section class="gallery">
         <h2>Some random information.</h2>
-        <div class="gallery-container">
+        <div class="gallery-parent">
             
-            <div class="gallery-one">
-                <img class="gallery" src="./assets/pexels-photo-4507735.jpeg" alt=""></img>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam!</p>
+            <div class="gallery-item">
+                <img src="./assets/pexels-closeup-pink.jpeg" alt=""></img>
+                <div class="text">this is some subtext under an illustration or image</div>
             </div>
             
-            <div class="gallery-two">
-                <img class="gallery" src="./assets/pexels-closeup-pink.jpeg" alt=""></img>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam!</p>
+            <div class="gallery-item">
+                <img src="./assets/pexels-photo-4507712.jpeg" alt=""></img>
+                <div class="text">this is some subtext under an illustration or image</div>
             </div>
 
-            <div class="gallery-three">
-                <img class="gallery" src="./assets/pexels-photo-1367219.jpeg" alt=""></img>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam!</p>
+            <div class="gallery-item">
+                <img src="./assets/pexels-photo-1367219.jpeg" alt=""></img>
+                <div class="text">this is some subtext under an illustration or image</div>
             </div>
 
-            <div class="gallery-four">
-                <img class="gallery" src="./assets/pexels-photo-2227127.jpeg" alt=""></img>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam!</p>
+            <div class="gallery-item">
+                <img src="./assets/pexels-photo-2227127.jpeg" alt=""></img>
+                <div class="text">this is some subtext under an illustration or image</div>
             </div>
                         
         </div>
+        </section>
+
+        <!-- QUOTE -->
+        <section class="quote">
+            <figure>
+                <div class="quote-container">
+                    <blockquote>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
+                    <figcaption>-Thor, God of Thunder</figcaption>
+                </div>
+            </figure>
+        </section>
+
+        <section class="action">
+            
+            <div class="action-box">
+                
+                <div class="action-left">
+                    <h5>Call to action! It's time!</h5>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+
+                <div class="action-right">
+                    <button>Sign up</button>
+                </div>
+
+            </div>
+
+        </section>
 
 
         <footer>
-            Copyright © The Odin Project 2021
+            <div>Copyright © The Odin Project 2021</div>
         </footer>
     </div>
 </body>
